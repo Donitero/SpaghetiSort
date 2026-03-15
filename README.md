@@ -2,13 +2,13 @@ Dan Ndung'u
 EB3/66967/23
 
 # SpaghetiSort
-A program to sort a list of integers using spagheti sort
+A program to sort a list of integers using spagheti sort.
 
-it is a theoretical sorting algorithm where uncooked spaghetti is used to sort numbers
-equal strands of spaghetti are provided and hang from top depending on the integers provided
-if the number is 5, 8, 6, 7, 5 strands are hanged vertically then 8, 6 and 7 follow
-when one lowers their hand and touches the lowest tip the highest number is picked removed and noted from the strands
-the process is repeated till all are picked
-the sorted numbers would be 8, 7, 6, 5 at the end 
-It’s not used in real programs but used to explain sorting algorithms
+It is a theoretical sorting algorithm where uncooked spaghetti is used to sort numbers.
+Equal strands of spaghetti are provided and hang from top depending on the integers provided.
+If the number is 5, 8, 6, 7, 5 strands are hanged vertically then 8, 6 and 7 follow.
+when one lowers their hand and touches the lowest tip the highest number is picked removed and noted from the strands.
+The process is repeated till all are picked.
+The sorted numbers would be 8, 7, 6, 5 at the end. 
+It’s not used in real programs but used to explain sorting algorithms😂 
 
