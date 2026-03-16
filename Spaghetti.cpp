@@ -22,3 +22,6 @@ void spaghettiSort(vector<int>& arr, int& comparisons, int& swaps){
     }
   }
 }
+int main(){
+  
+}
