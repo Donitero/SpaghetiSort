@@ -38,7 +38,7 @@ int main(){
     cin>>arr[i];
   }
   
-  cout<<"\nOroginal list:";
+  cout<<"\nOriginal list:";
   for(size_t i = 0; i < arr.size(); ++i){
     cout<<arr[i]<<" ";
   }
@@ -50,8 +50,8 @@ int main(){
     cout<<arr[i]<<" ";
   }
 
-  cout<<"Comparisons: "<<comparisons;
-  cout<<"Swaps: "<<swaps;
+  cout<<"\nComparisons: "<<comparisons;
+  cout<<"\nSwaps: "<<swaps;
 
   return 0;
 }
