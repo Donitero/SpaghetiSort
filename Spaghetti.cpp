@@ -19,9 +19,45 @@ void spaghettiSort(vector<int>& arr, int& comparisons, int& swaps){
       int temp = arr[maxIdx];
       arr[maxIdx] = arr[i];
       arr[i] = temp;
+      swaps++;
     }
   }
 }
 int main(){
+  int n;
+  cout<<"Enter number of integers: ";
+  cin>>n;
+
+  if(n <= 0){
+    cout<<"Enter a positive number!";
+    return 1;
+  }
+  vector<int> arr(n);
+  cout<<"\nEnter "<<n<<" integers: ";
+  for(int i = 0; i < n; ++i){
+    cin>>arr[i];
+  }
   
+  cout<<"\nOroginal list:";
+  for(size_t i = 0; i < arr.size(); ++i){
+    cout<<arr[i]<<" ";
+  }
+  cout<<end1;
+
+  int comparisons, swaps;
+  spaghettiSort(arr, comparisons, swaps);
+  cout<<"\nDescending sorted list: ";
+  for(size_t i = 0; i < arr.size(); ++i){
+    cout<<arr[i]<<" ";
+  }
+  cout<<end1;
+
+  cout<<"Comparisons: "<<comparisons<<end1;
+  cout<<"Swaps: "<<swaps<<end1;
+
+  return 0;
 }
+
+
+
+
