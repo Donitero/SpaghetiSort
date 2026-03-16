@@ -42,7 +42,6 @@ int main(){
   for(size_t i = 0; i < arr.size(); ++i){
     cout<<arr[i]<<" ";
   }
-  cout<<end1;
 
   int comparisons, swaps;
   spaghettiSort(arr, comparisons, swaps);
@@ -50,10 +49,9 @@ int main(){
   for(size_t i = 0; i < arr.size(); ++i){
     cout<<arr[i]<<" ";
   }
-  cout<<end1;
 
-  cout<<"Comparisons: "<<comparisons<<end1;
-  cout<<"Swaps: "<<swaps<<end1;
+  cout<<"Comparisons: "<<comparisons;
+  cout<<"Swaps: "<<swaps;
 
   return 0;
 }
